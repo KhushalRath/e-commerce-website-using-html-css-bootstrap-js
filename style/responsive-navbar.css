@@ -1,0 +1,568 @@
+@media (max-width: 1100px) {
+  .navbar-brand {
+    font-size: 27px;
+  }
+  .navbar-nav > li {
+    padding: 0px 7px;
+  }
+  .navbar-nav > li > a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 26px;
+  }
+  .navbar-nav > li {
+    padding: 3px 0px;
+  }
+  .d-flex {
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+  }
+
+  #search-bar {
+    width: 230px;
+    height: 37px;
+    padding: 0px 11px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  #search-btn {
+    width: 90px;
+    height: 37px;
+    margin: 5px 0px 18px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  .dropdown-item {
+    font-size: 16px;
+  }
+  .cart-icon {
+    width: 32px;
+    height: 32px;
+  }
+  #cart-icon {
+    padding: 6px 0px 6px 0px;
+  }
+  .left-section {
+    min-height: 70vh;
+  }
+  .right-section {
+    min-height: 59vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px 20px;
+    justify-content: center;
+  }
+  .img-1 {
+    width: 65%;
+    height: 550px;
+  }
+  .hero-heading {
+    font-size: 63px;
+  }
+  .hero-sub-heading {
+    font-size: 22px;
+    margin: 17px 0px;
+  }
+  .shop-now-btn {
+    border-radius: 6px;
+  }
+  .cards {
+    border-radius: 10px;
+    margin: 12px 0px;
+  }
+  .img-01 {
+    width: 55%;
+    max-height: 210px;
+    filter: drop-shadow(6px 6px 17px rgba(0, 0, 0, 0.796));
+  }
+  .summery-container {
+    justify-content: center;
+    padding: 15px 5px;
+  }
+  .all-stars {
+    width: 14px;
+    height: 14px;
+    margin: 0px 3px;
+  }
+  .product-name {
+    font-size: 17px;
+  }
+  .add-to-cart-btn {
+    width: 165px;
+    height: 38px;
+    margin-top: 6px;
+  }
+  /* Modal Styling */
+  .modal {
+    width: 72%;
+    max-height: 400px;
+    /* right: 13%; */
+    border-radius: 15px;
+    top: 24%;
+  }
+  .cart-heading {
+    font-size: 30px;
+  }
+  .heading-01 {
+    display: none;
+  }
+  .cart-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    padding: 10px 0px;
+  }
+  .one {
+    width: 100%;
+  }
+  .cart-item > h3 {
+    text-align: center;
+    width: 90%;
+    margin-top: 8px;
+  }
+
+  .cart-item > p {
+    margin-right: 0px;
+    margin-top: 8px;
+  }
+  .remove-item {
+    width: 130px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 8px 0px;
+  }
+  .pure-cloth-family {
+    font-size: 32px;
+    margin: 8px 0px 23px 0px;
+  }
+  #news-letter-section {
+    padding-bottom: 2.5vh;
+  }
+  .purecloth-newsletter-heading {
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 30px;
+  }
+  .left-news-heading {
+    font-size: 23px;
+  }
+  .subheading-news {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .left-news-letter {
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  .newsletter-form {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer-section {
+    min-height: 65vh;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  #footer-heading {
+    font-size: 30px;
+    margin: 17px 0px;
+  }
+  .footer-categories {
+    font-size: 22px;
+  }
+  .cetegories-name {
+    margin-top: 13px;
+  }
+  .names {
+    font-size: 13px;
+  }
+  .footer-follow-us,
+.contact-heading {
+  font-size: 22px;
+}
+.contact-us-column {
+  flex-direction: column;
+  padding-top: 12px;
+  min-height: 140px;
+  margin-bottom: 10px;
+}
+.more-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+}
+.email,
+.phone-number,
+.Address {
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+}
+
+
+
+
+@media (max-width: 900px) {
+  .navbar-brand {
+    font-size: 22px;
+  }
+  .left-section {
+    min-height: 65vh;
+  }
+  .right-section {
+    min-height: 64vh;
+  }
+  .img-1 {
+    height: 520px;
+  }
+  .hero-heading {
+    font-size: 53px;
+  }
+  .hero-sub-heading {
+    font-size: 20px;
+    margin: 14px 0px;
+  }
+  .cards {
+    margin: 13px 0px;
+  }
+  .img-01 {
+    width: 57%;
+  }
+  .product-name {
+    font-size: 15px;
+  }
+  /* Modal Styling */
+  .modal {
+    width: 80%;
+    /* right: 13%; */
+    top: 24%;
+  }
+  .cart-heading {
+    font-size: 26px;
+  }
+  .pure-cloth-family {
+    font-size: 27px;
+    margin: 7px 0px 19px 0px;
+  }
+  #news-letter-section {
+    padding-bottom: 2vh;
+  }
+  .purecloth-newsletter-heading {
+    font-size: 27px;
+    margin-top: 28px;
+    margin-bottom: 27px;
+  }
+  .left-news-heading {
+    font-size: 19px;
+  }
+  .subheading-news {
+    font-size: 13px;
+  }
+  .left-news-letter {
+    padding-bottom: 13px;
+  }
+  .newsletter-form {
+    width: 99%;
+    margin-top: 18px;
+  }
+  #footer-section {
+    min-height: 60vh;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  #footer-heading {
+    font-size: 27px;
+    margin: 15px 0px;
+  }
+  .footer-categories {
+    font-size: 19px;
+  }
+  .cetegories-name {
+    margin-top: 11px;
+  }
+  .names {
+    font-size: 12px;
+  }
+  .footer-follow-us,
+.contact-heading {
+  font-size: 19px;
+}
+.contact-us-column {
+  padding-top: 11px;
+  min-height: 130px;
+  margin-bottom: 19px;
+}
+.more-contact {
+  margin-top: 12px;
+}
+.email,
+.phone-number,
+.Address {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .left-section {
+    min-height: 62vh;
+  }
+  .right-section {
+    min-height: 60vh;
+  }
+  .img-1 {
+    height: 500px;
+  }
+  .hero-heading {
+    font-size: 48px;
+  }
+  .hero-sub-heading {
+    font-size: 18px;
+    margin: 12px 0px;
+  }
+  .cards {
+    margin: 12px 0px;
+  }
+  .img-01 {
+    width: 60%;
+  }
+  .product-name {
+    font-size: 14px;
+  }
+  /* Modal Styling */
+  .cart-heading {
+    font-size: 22px;
+  }
+  .pure-cloth-family {
+    font-size: 22px;
+    margin: 6px 0px 15px 0px;
+  }
+  #news-letter-section {
+    padding-bottom: 1.7vh;
+  }
+  .purecloth-newsletter-heading {
+    font-size: 22px;
+    margin-top: 24px;
+    margin-bottom: 22px;
+  }
+  .left-news-heading {
+    font-size: 17px;
+  }
+  .subheading-news {
+    font-size: 12px;
+  }
+  .left-news-letter {
+    padding-bottom: 12px;
+  }
+  .newsletter-form {
+    width: 99%;
+    margin-top: 16px;
+  }
+  #footer-section {
+    min-height: 60vh;
+    margin-top: 7vh;
+  }
+  #footer-heading {
+    font-size: 24px;
+    margin: 13px 0px;
+  }
+  .footer-categories {
+    font-size: 17px;
+  }
+  .categories-column{
+    align-items: center;
+  }
+  .social-column{
+    align-items: center;
+  }
+  .contact-us-column{
+    align-items: center;
+  }
+  .more-contact{
+    align-items: center;
+  }
+  .cetegories-name {
+    margin-top: 10px;
+  }
+  .footer-follow-us,
+.contact-heading {
+  font-size: 17px;
+}
+
+}
+
+
+
+
+
+
+
+@media (max-width: 610px) {
+  .navbar-brand {
+    font-size: 19px;
+  }
+  .left-section {
+    min-height: 50vh;
+  }
+  .right-section {
+    min-height: 50vh;
+  }
+  .img-1 {
+    width: 100%;
+    height: 490px;
+  }
+  .hero-heading {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .hero-sub-heading {
+    font-size: 16px;
+    margin: 12px 0px;
+  }
+  .cards {
+    margin: 12px 0px;
+  }
+  .img-01 {
+    width: 50%;
+  }
+  .product-name {
+    font-size: 20px;
+  }
+  /* Modal Styling */
+  .cart-heading {
+    font-size: 21px;
+  }
+  .pure-cloth-family {
+    font-size: 26px;
+    margin: 6px 0px 20px 0px;
+  }
+  #news-letter-section {
+    padding-bottom: 1.4vh;
+  }
+  .purecloth-newsletter-heading {
+    font-size: 26px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+  }
+  .left-news-heading {
+    font-size: 16px;
+  }
+  .subheading-news {
+    font-size: 12px;
+  }
+
+  #footer-section {
+    margin-top: 6vh;
+  }
+  #footer-heading {
+    font-size: 22px;
+  }
+  .footer-categories {
+    font-size: 16px;
+  }
+ 
+  .footer-follow-us,
+.contact-heading {
+  font-size: 16px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 410px) {
+  .navbar-brand {
+    font-size: 17px;
+  }
+  .left-section {
+    min-height: 58vh;
+  }
+  .right-section {
+    min-height: 55vh;
+  }
+
+  .hero-heading {
+    font-size: 38px;
+  }
+  .hero-sub-heading {
+    font-size: 15px;
+    margin: 11px 0px;
+  }
+  .cards {
+    margin: 13px 0px;
+  }
+  .img-01 {
+    width: 50%;
+  }
+  .product-name {
+    font-size: 15px;
+  }
+  .pure-cloth-collection{
+    font-size: 28px;
+  }
+  /* Modal Styling */
+  .cart-heading {
+    font-size: 20px;
+  }
+  .pure-cloth-family {
+    font-size: 24px;
+  }
+  #news-letter-section {
+    padding-bottom: 1.5vh;
+  }
+  .purecloth-newsletter-heading {
+    font-size: 20px;
+  }
+  .left-news-heading {
+    font-size: 16px;
+  }
+
+}
